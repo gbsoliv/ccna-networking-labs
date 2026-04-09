@@ -27,10 +27,11 @@ A small company with 10 employees needs a reliable internal network with basic c
 
 ## Security
 - Rename devices
-- Configured console password on the switch to prevent unauthorized access
+- Add descriptions to ports
+- Configured secret password on the switch and router to prevent unauthorized access
+- Configured Password Encryption on the router
 - Disabled unused switch ports to reduce security risks  
-- Configured Secret Password on the router
-- Configured Password Encryption on the router 
+  
 
 ---
 
