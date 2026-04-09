@@ -12,20 +12,16 @@ A small company with 10 employees needs a reliable internal network with basic c
 
 ---
 ## Objective
-- Build a structured network
-- Configure IP addressing
-- Enable communication between devices
-
----
-## Topology
-![Topology](./images/topology.png)
-
-# Objectives
 - Design a basic network topology
 - Assign IP addresses manually
-- Configure default gateways
 - Enable communication between devices
-- Apply basic security configurations
+- Configure default gateways
+
+---
+## Topology: STAR
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b0aacc23-3b5c-4b50-a5ca-875e99b96d0b" />
+
 
 ---
 
