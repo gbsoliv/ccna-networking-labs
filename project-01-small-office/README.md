@@ -26,7 +26,8 @@ A small company with 10 employees needs a reliable internal network with basic c
 ---
 
 ## Security
-- Configured console password on the switch to prevent unauthorized access  
+- Rename devices
+- Configured console password on the switch to prevent unauthorized access
 - Disabled unused switch ports to reduce security risks  
 - Configured Secret Password on the router
 - Configured Password Encryption on the router 
