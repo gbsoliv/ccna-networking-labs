@@ -12,27 +12,27 @@ A small company with 10 employees needs a reliable internal network with basic c
 
 ---
 ## Objective
-- Build a structured network
-- Configure IP addressing
-- Enable communication between devices
-
----
-## Topology
-![Topology](./images/topology.png)
-
-# Objectives
 - Design a basic network topology
 - Assign IP addresses manually
-- Configure default gateways
 - Enable communication between devices
-- Apply basic security configurations
+- Configure default gateways
+
+---
+## Topology: STAR
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b0aacc23-3b5c-4b50-a5ca-875e99b96d0b" />
+
+<img width="1912" height="1011" alt="01-topology" src="https://github.com/user-attachments/assets/95f3aa13-dfbc-4550-b504-79fb0e2b3a12" />
 
 ---
 
 ## Security
-- Configured console password on the switch to prevent unauthorized access  
+- Rename devices
+- Add descriptions to ports
+- Configured secret password on the switch and router to prevent unauthorized access
+- Configured Password Encryption on the router
 - Disabled unused switch ports to reduce security risks  
-- Applied basic device hardening practices  
+  
 
 ---
 
@@ -42,10 +42,15 @@ A small company with 10 employees needs a reliable internal network with basic c
 - Verified communication between PCs using `ping`  
 - Tested connectivity between PCs and the router (default gateway)  
 
+<img width="802" height="961" alt="01-testing" src="https://github.com/user-attachments/assets/c6821f36-ed12-4dad-9515-5b2ff6135566" />
+
 ### Commands Used
 ```bash
 ping 192.168.1.1
 ping 192.168.1.10
 arp -a
+
+
+
 
 
