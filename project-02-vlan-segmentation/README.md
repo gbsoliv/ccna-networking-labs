@@ -36,11 +36,11 @@ Topology: STAR
 
 ---
 
-## VLAN Plan
+## VLAN Ports Plan
 
-VLAN 10: Fa0/1 > 0/10 |
-VLAN 20: F0/10 > 0/20 |
-VLAN 30: F0/20 > 0/24 | 
+- VLAN 10: Fa0/1 > 0/10 
+- VLAN 20: F0/10 > 0/20 
+- VLAN 30: F0/20 > 0/24 
 
 ---
 
