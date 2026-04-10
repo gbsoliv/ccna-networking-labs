@@ -42,13 +42,15 @@ A small company with 10 employees needs a reliable internal network with basic c
 - Verified communication between PCs using `ping`  
 - Tested connectivity between PCs and the router (default gateway)  
 
+<img width="802" height="961" alt="01-testing" src="https://github.com/user-attachments/assets/c6821f36-ed12-4dad-9515-5b2ff6135566" />
+
 ### Commands Used
 ```bash
 ping 192.168.1.1
 ping 192.168.1.10
 arp -a
 
-<img width="802" height="961" alt="01-testing" src="https://github.com/user-attachments/assets/c6821f36-ed12-4dad-9515-5b2ff6135566" />
+
 
 
 
