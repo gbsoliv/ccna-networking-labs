@@ -22,6 +22,7 @@ A small company with 10 employees needs a reliable internal network with basic c
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/b0aacc23-3b5c-4b50-a5ca-875e99b96d0b" />
 
+<img width="1912" height="1011" alt="01-topology" src="https://github.com/user-attachments/assets/95f3aa13-dfbc-4550-b504-79fb0e2b3a12" />
 
 ---
 
@@ -46,5 +47,8 @@ A small company with 10 employees needs a reliable internal network with basic c
 ping 192.168.1.1
 ping 192.168.1.10
 arp -a
+
+<img width="802" height="961" alt="01-testing" src="https://github.com/user-attachments/assets/c6821f36-ed12-4dad-9515-5b2ff6135566" />
+
 
 
