@@ -28,7 +28,11 @@ The company has grown and now includes multiple departments:
 ---
 
 ## Topology
-Topology: 
+Topology: STAR 
+
+![star-topology (1)](https://github.com/user-attachments/assets/2bef1ac6-7d91-4512-9e93-e47d9d8df722)
+
+
 
 ---
 
