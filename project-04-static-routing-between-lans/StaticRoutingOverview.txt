@@ -1,0 +1,31 @@
+Topology:
+- Two LANs connected via two routers (R1 ↔ R2)
+
+IP Addressing:
+
+LAN 1 — 192.168.10.0/24
+- R1 (GW): 192.168.10.1
+- Hosts: 192.168.10.10–30
+
+LAN 2 — 192.168.20.0/24
+- R2 (GW): 192.168.20.1
+- Hosts: 192.168.20.10–30
+
+Transit Network — 10.0.0.0/30
+- R1: 10.0.0.1
+- R2: 10.0.0.2
+
+Configuration:
+
+R1
+ip route 192.168.20.0 255.255.255.0 10.0.0.2
+
+R2
+ip route 192.168.10.0 255.255.255.0 10.0.0.1
+
+Notes:
+- Interfaces configured with IP and enabled (no shutdown)
+- Hosts configured with default gateway pointing to router LAN interface
+
+Result:
+- End-to-end connectivity between LAN 1 and LAN 2
