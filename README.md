@@ -25,7 +25,7 @@ ccna-networking-labs/
 ├── project-01-small-office-network/
 ├── project-02-vlan-segmentation/
 ├── project-03-intervlan-routing/
-├── project-04-dhcp-nat/
+├── project-04-static-routing/ (3 parts)
 ├── project-05-stp-redundancy/
 ├── project-06-ospf-routing/
 ├── project-07-acls-security/
