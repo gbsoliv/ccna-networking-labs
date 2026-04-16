@@ -1,0 +1,26 @@
+The topology simulates a small enterprise environment where different departments are logically separated into VLANs, improving network organization, scalability, and security.
+
+Topology
+- Two switches (SW1 and SW2) connected via a trunk link
+- Multiple VLANs distributed across both switches
+- End devices assigned to specific VLANs based on department
+
+| VLAN | Name           | Network          |
+| ---- | -------------- | ---------------- |
+| 10   | Administration | 192.168.10.0/24  |
+| 20   | Finance        | 192.168.20.0/24  |
+| 30   | HR             | 192.168.30.0/24  |
+| 40   | IT             | 192.168.40.0/24  |
+| 50   | Guest          | 192.168.50.0/24  |
+| 99   | Management     | 192.168.60.0/24  |
+| 999  | Native VLAN    | (no user subnet) |
+
+
+Technical Implementation: 
+
+- Configured VLANs for departmental isolation (Admin, Finance, HR, IT, Guest, Management)
+- Implemented 802.1Q trunking between switches
+- Defined a dedicated Native VLAN (VLAN 999) following best practices
+- Created SVIs (Switch Virtual Interfaces) to act as default gateways
+- Enabled Layer 3 routing (ip routing) on the switch
+- Assigned static IP addressing to all end devices
