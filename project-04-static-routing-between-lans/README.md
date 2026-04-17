@@ -13,3 +13,5 @@ Introduced VLAN segmentation and trunking between switches. Configured SVIs on a
 
 ### Project 3 — External Connectivity
 Extended the internal network by adding a Layer 3 link to a router. Implemented a default route on the switch and return routes on the router to allow traffic to reach external networks.
+
+<img width="1625" height="667" alt="multilayer-switching-external-connectivity-topology" src="https://github.com/user-attachments/assets/5467bdba-c44f-4517-aef8-52b958a0ec97" />
