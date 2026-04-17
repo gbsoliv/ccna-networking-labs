@@ -1,0 +1,38 @@
+MULTILAYER SWITCHING WITH EXTERNAL CONNECTIVITY
+
+The topology simulates a small enterprise environment where an internal VLAN-based network is extended to communicate with external networks, introducing upstream connectivity and routing beyond the LAN.
+
+
+Topology
+- Two switches (SW1 and SW2) connected via a trunk link
+- Multilayer switch (SW1) performing inter-VLAN routing (SVIs)
+- Layer 3 point-to-point link between switch and router
+- External network simulated behind the router
+- End devices assigned to VLANs based on department 
+
+
+| VLAN | Name           | Network          |
+| ---- | -------------- | ---------------- |
+| 10   | Administration | 192.168.10.0/24  |
+| 20   | Finance        | 192.168.20.0/24  |
+| 30   | HR             | 192.168.30.0/24  |
+| 40   | IT             | 192.168.40.0/24  |
+| 50   | Guest          | 192.168.50.0/24  |
+| 99   | Management     | 192.168.60.0/24  |
+| 999  | Native VLAN    | (no user subnet) |
+
+
+Additional Networks
+- Transit Network (Switch ↔ Router): 10.0.0.0/30
+- External Network (simulated): 172.16.100.0/24
+
+
+Technical Implementation
+- Maintained VLAN segmentation and inter-VLAN routing using SVIs
+- Implemented 802.1Q trunking between switches
+- Configured a dedicated Native VLAN (VLAN 999)
+- Converted a switch interface to Layer 3 using no switchport
+- Assigned IP addressing to the transit network (10.0.0.0/30)
+- Configured a default route on the multilayer switch for outbound traffic
+- Implemented static return routes on the router for internal VLAN networks
+- Simulated an external network to validate end-to-end connectivity
